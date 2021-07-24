@@ -5,7 +5,7 @@ function comb_sort(&$arr){
 	$swap = true;
 	while ($gap > 1) {
 		if ($gap > 1) {
-			$gap = floor($gap / 1.25);
+			$gap = floor($gap / 1.3);
 			if ($gap == 9 || $gap == 10) $gap = 11;
 		}
 		$swapp = false;
